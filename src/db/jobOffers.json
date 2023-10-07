@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Full Stack Developer",
+        "salary": "$80,000 - $100,000",
+        "description": "We're looking for a talented full stack developer with experience in React and Node.js.",
+        "requiredLanguage": "JavaScript",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "TechCorp",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/be/beca3808-c4c9-4e41-938b-afcf5835ae74?rule=largeDevice155",
+        "requiredCertificates": ["0x13452"]
+    },
+    {
+        "id": 2,
+        "title": "Data Scientist",
+        "salary": "$90,000 - $110,000",
+        "description": "Seeking a skilled data scientist with experience in Python and machine learning frameworks.",
+        "requiredLanguage": "Python",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "TechCorp",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "",
+        "requiredCertificates": ["0x13452", "0x12345"]
+    },
+    {
+        "id": 3,
+        "title": "Java Developer",
+        "salary": "$70,000 - $85,000",
+        "description": "In search of a backend Java developer with strong experience in Spring Boot.",
+        "requiredLanguage": "Java",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "TechCorp",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "",
+        "requiredCertificates": ["0x13452"]
+    }
+]

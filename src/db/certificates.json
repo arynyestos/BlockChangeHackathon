@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Grado en Ingeniería",
+        "contractAdd": "0x12345"
+    },
+    {
+        "name": "Grado en Economía",
+        "contractAdd": "0x54321"
+    },
+    {
+        "name": "Experto en Docker",
+        "contractAdd": "0x67890"
+    },
+    {
+        "name": "Experto en React",
+        "contractAdd": "0x13579"
+    },
+    {
+        "name": "Grado en Derecho",
+        "contractAdd": "0x24680"
+    },
+    {
+        "name": "Grado en Marketing Digital",
+        "contractAdd": "0x98765"
+    },
+    {
+        "name": "Grado en Web3",
+        "contractAdd": "0x54321"
+    }
+]
