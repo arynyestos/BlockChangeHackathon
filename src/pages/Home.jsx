@@ -19,7 +19,7 @@ export default function Home() {
     switch (filter) {
         case "match":
             filteredOffers = jobOffers.filter(offer =>
-                offer.requiredCertificates.some(cert => userCertificates.includes(cert))
+                offer.requiredCertificates.every(cert => userCertificates.includes(cert))
             );
             break;
         case "noMatch":

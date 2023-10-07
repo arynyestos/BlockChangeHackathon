@@ -1,18 +1,21 @@
 [
     {
         "id": 1,
-        "title": "Full Stack Developer",
-        "salary": "$80,000 - $100,000",
-        "description": "We're looking for a talented full stack developer with experience in React and Node.js.",
+        "title": "Network Technician",
+        "salary": "39.000€ - 40.000€",
+        "description": "In BIGZON we select 1 Systems Engineer Administrator Open Source Software, expert in Linux Red Hat version 7 or 8, to work in a stable project of Public Administration, center of Madrid in Pº de la Castellana near Chamartín.\nVery good job opportunity!\nThe main function will be the design, deployment and management of the free software platform: web servers, application servers, free databases, queue management, and other services, on Linux machines, on which the business applications are executed\n-The Linux platform is currently in a phase of growth and expansion. It is a platform of free software products, based on a set of VMware virtual machines running the Red Hat Enterprise Linux 7 or 8 operating system, Apache HTTP Server web server, Tomcat, Wildfly or JBoss application server in high availability, MariaDB Galera Cluster database server, ActiveMQ Artemis queue server, and JasperReports Server reporting server.\nThe platform consists of several environments: production, pre-production, testing and training, development and laboratory.",
         "requiredLanguage": "JavaScript",
         "createdTimestamp": "2023-10-01T10:00:00Z",
-        "contractType": "Full-time",
-        "city": "New York",
+        "contractType": "Permanent Full-time",
+        "city": "Madrid",
         "presence": "Remote",
-        "companyName": "TechCorp",
-        "companyURL": "https://techcorp.example.com",
-        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/be/beca3808-c4c9-4e41-938b-afcf5835ae74?rule=largeDevice155",
-        "requiredCertificates": ["0x13452"]
+        "companyName": "BIGZON",
+        "companyURL": "https://bigzon.ofertas-trabajo.infojobs.net/",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/dd/dde5d4cd-2757-49f9-99fa-50564954afe4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzM1MjEwNzcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9kZC9kZGU1ZDRjZC0yNzU3LTQ5ZjktOTlmYS01MDU2NDk1NGFmZTQiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.PvIsvKcepGt5sbQpWeOOnkwALtkZhzNeZrVQykdRjKAZme1dg47BWeyGsiEfbs4neYh1E2vjByGK41ixZU2Mx2689nSXCYVyoz_Rfp90qWLBSsOtuXXPWijpOfyHZMSNDHgeYe6NDOWQTuJKM_LDxIivDoUa909ZdlJs-TpYJzFM69HdSLRryIXR4dcCHSEA9_UPsddWPORUShDceD55paZZ13RlHuCodxuKlcWplGHwzUKV4Qyh3mFq2oc5mmHuz5oNZ3HQ_vxaB02JCR2HA3DyY6ST6mlRFoB-2UBR862vUdfGuOkFl5n78BJm0gqjNjrMNQ1nQATGUVGhS_KhIQ&AccessKeyId=d724d9a53d95a810",
+        "requiredCertificates": [
+            "0x67890",
+            "0x12345"
+        ]
     },
     {
         "id": 2,
@@ -26,8 +29,11 @@
         "presence": "Remote",
         "companyName": "TechCorp",
         "companyURL": "https://techcorp.example.com",
-        "companyLogo": "",
-        "requiredCertificates": ["0x13452", "0x12345"]
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/dd/dde5d4cd-2757-49f9-99fa-50564954afe4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzM1MjEwNzcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9kZC9kZGU1ZDRjZC0yNzU3LTQ5ZjktOTlmYS01MDU2NDk1NGFmZTQiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.PvIsvKcepGt5sbQpWeOOnkwALtkZhzNeZrVQykdRjKAZme1dg47BWeyGsiEfbs4neYh1E2vjByGK41ixZU2Mx2689nSXCYVyoz_Rfp90qWLBSsOtuXXPWijpOfyHZMSNDHgeYe6NDOWQTuJKM_LDxIivDoUa909ZdlJs-TpYJzFM69HdSLRryIXR4dcCHSEA9_UPsddWPORUShDceD55paZZ13RlHuCodxuKlcWplGHwzUKV4Qyh3mFq2oc5mmHuz5oNZ3HQ_vxaB02JCR2HA3DyY6ST6mlRFoB-2UBR862vUdfGuOkFl5n78BJm0gqjNjrMNQ1nQATGUVGhS_KhIQ&AccessKeyId=d724d9a53d95a810",
+        "requiredCertificates": [
+            "0x13452",
+            "0x12345"
+        ]
     },
     {
         "id": 3,
@@ -42,6 +48,8 @@
         "companyName": "TechCorp",
         "companyURL": "https://techcorp.example.com",
         "companyLogo": "",
-        "requiredCertificates": ["0x13452"]
+        "requiredCertificates": [
+            "0x13452"
+        ]
     }
 ]
