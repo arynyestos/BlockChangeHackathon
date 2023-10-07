@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "vite-project",
+=======
+  "name": "proyecto",
+>>>>>>> 113ddd918b2ad5dcf4dc396117ad52c21cce5396
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +16,12 @@
   "dependencies": {
     "alchemy-sdk": "^2.10.1",
     "react": "^18.2.0",
+<<<<<<< HEAD
     "react-dom": "^18.2.0"
+=======
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
+>>>>>>> 113ddd918b2ad5dcf4dc396117ad52c21cce5396
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

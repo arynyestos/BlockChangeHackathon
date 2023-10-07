@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,160 @@
 
 .read-the-docs {
   color: #888;
+=======
+/* Background and General Styles */
+body {
+  background-color: #f0f0f0; /* light grey */
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Sample font */
+}
+
+/* Tab Styles */
+.tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #fff; /* White background for the tab bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #333; /* default tab text color */
+}
+
+.tab:hover {
+  background-color: #f5f5f5;
+}
+
+.tab.active {
+  border-bottom: 3px solid #3498db;
+  color: #3498db; /* active tab text color */
+  font-weight: bold;
+}
+
+/* Job Card Styles for Vertical List */
+.job-offers-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the cards horizontally */
+  padding: 20px;
+  width: 100%;
+  gap: 20px; /* Spacing between cards */
+}
+
+/* Background and General Styles */
+body {
+  background-color: #f0f0f0; /* light grey */
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Sample font */
+}
+
+/* Tab Styles */
+.tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #fff; /* White background for the tab bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #333; /* default tab text color */
+}
+
+.tab:hover {
+  background-color: #f5f5f5;
+}
+
+.tab.active {
+  border-bottom: 3px solid #ddb965;
+  color: #ddb965; /* active tab text color */
+  font-weight: bold;
+}
+
+/* Job Card Styles for Vertical List */
+.job-offers-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the cards horizontally */
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  gap: 20px; /* Spacing between cards */
+}
+
+.job-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%; /* Adjust based on preference */
+  max-width: 1000px; /* Ensure cards don't get too wide on large screens */
+  transition: transform 0.2s; /* For hover effect */
+  border-radius: 10px; /* Rounded corners */
+  border-bottom: 4px solid #f3e2b9;
+  padding: 10px;
+  text-decoration: none;  
+  color: inherit; 
+}
+
+.job-card h2 {
+  font-size: 1.3em;  /* Adjust to the desired size */
+}
+
+.job-header {
+  display: flex;
+  align-items: center;  /* Vertically align items */
+  gap: 10px;            /* Gap between logo and title */
+}
+
+.job-logo {
+  width: 50px;         /* Adjust to desired size */
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.company-link {
+  font-size: 0.8em;  /* Adjust to the desired smaller font size */
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+  color: rgb(84, 161, 186);
+  text-decoration: none; /* Removes default hyperlink underline */
+  transition: text-decoration 0.3s ease;
+}
+
+.company-link:hover {
+  text-decoration: underline;  /* On hover: Underlined */
+}
+
+.job-details, .job-footer {
+  color: grey;
+  font-size: 0.9em;   /* Adjust to desired size */
+  margin: 5px 0;
+}
+
+.job-card:hover {
+  transform: translateY(-5px); /* Gives a slight lift effect on hover */
+}
+
+/* Add this to your CSS file */
+
+.job-counter {
+  text-align: center;
+  font-weight: regular;
+  margin: 0;
+  font-size: 0.9em;
+  color: #333;
+  font-family: 'Montserrat', sans-serif
+>>>>>>> 113ddd918b2ad5dcf4dc396117ad52c21cce5396
 }

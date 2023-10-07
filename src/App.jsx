@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
@@ -42,3 +43,25 @@ function App() {
 }
 
 export default App;
+=======
+import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Navbar from './components/NavBar/NavBar';
+import Home from "./pages/Home"
+import Offer from './pages/Offer';
+
+function App() {
+  return (
+    <div >
+      <Navbar />
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/oferta/:id" element={<Offer />} />
+      </Routes>
+
+    </div>
+  );
+}
+
+export default App
+>>>>>>> 113ddd918b2ad5dcf4dc396117ad52c21cce5396
