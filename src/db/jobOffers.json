@@ -12,7 +12,15 @@
         "companyName": "TechCorp",
         "companyURL": "https://techcorp.example.com",
         "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/be/beca3808-c4c9-4e41-938b-afcf5835ae74?rule=largeDevice155",
-        "requiredCertificates": ["0x13452"]
+        "requiredCertificates": {
+            "Polygon": [
+                "0x0053e9192cd52aa9cb2e2325b88125afe579aa70",
+                "0x1105ff8025bd70956fd9de1a41254f0606aac13c"
+            ],
+            "Optimism": [
+                "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25"
+            ]        
+        }
     },
     {
         "id": 2,
@@ -27,7 +35,13 @@
         "companyName": "TechCorp",
         "companyURL": "https://techcorp.example.com",
         "companyLogo": "",
-        "requiredCertificates": ["0x13452", "0x12345"]
+        "requiredCertificates": {
+            "Polygon": [
+                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6",
+                "0x1105ff8025bd70956fd9de1a41254f0606aac13c",
+                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693"
+            ]
+        }
     },
     {
         "id": 3,
@@ -42,6 +56,38 @@
         "companyName": "TechCorp",
         "companyURL": "https://techcorp.example.com",
         "companyLogo": "",
-        "requiredCertificates": ["0x13452"]
+        "requiredCertificates": {
+            "Polygon": [
+                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693",
+                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6"
+            ],
+            "Optimism": [
+                "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": "Master of the universe",
+        "salary": "$700,000 - $850,000",
+        "description": "In search of a Master of the Universe with strong experience being the master.",
+        "requiredLanguage": "Java",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "TechCorp",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "",
+        "requiredCertificates": {
+            "Polygon": [
+                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693",
+                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6"
+            ],
+            "Optimism": [
+                "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25",
+                "I am the damn master"
+            ]
+        }
     }
 ]

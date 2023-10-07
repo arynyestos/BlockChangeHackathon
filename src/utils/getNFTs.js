@@ -2,69 +2,60 @@ import { useState, useEffect } from 'react';
 import { Alchemy, Network } from 'alchemy-sdk';
 
 export function getNFTs(connectedAddress) {
-    const [results, setResults] = useState([]);
-    const [hasQueried, setHasQueried] = useState(false);
     const [isError, setIsError] = useState(false);
     const [nftAddressesObject, setNftAddressesObject] = useState(
         {
-        "Ethereum": {},
-        "Polygon": {},
-        "Arbitrum": {},
-        "Optimism": {}
+        "Ethereum": [],
+        "Polygon": [],
+        "Arbitrum": [],
+        "Optimism": []
         }
-    );
-  
-    const [networks, setNetworks] = useState(
-        {
-        "Ethereum": Network.ETH_MAINNET,
-        "Polygon": Network.MATIC_MAINNET,
-        "Arbitrum": Network.ARB_MAINNET,
-        "Optimism": Network.OPT_MAINNET
-        }
-    );
+    );    
+    const [cachedData, setCachedData] = useState({});
 
-    useEffect(() => {
-        async function fetchNFTs(connectedAddress, networkName, network) {
-        console.log(networkName, network)
+    async function fetchNFTs(connectedAddress, networkName, network) {
+        // console.log(networkName, network)
         const config = {
-            apiKey: import.meta.env.ALCHEMY_API_KEY,
+            apiKey: import.meta.env.VITE_ALCHEMY_API_KEY,
             network: network,
         };
 
         const alchemy = new Alchemy(config);
 
-          try {
-            const data = await alchemy.nft.getNftsForOwner(connectedAddress);
-            setResults(data);       
-            const nftContractAddresses = data.ownedNfts.map((nft) => nft.contract.address);    
-            console.log("nftAddressesObject:", nftAddressesObject);      
-            nftContractAddresses.forEach((address, index) => {
-                nftAddressesObject[networkName][index] = address;
-            });
-            setHasQueried(true);
-            setIsError(false);
-          } catch (error) {
-            console.log('Error while fetching NFTs:', error);
-            setHasQueried(true);
+        try {
+            if (!cachedData[connectedAddress]) {
+                console.log("En getNFTs.js:", connectedAddress)
+                const data = await alchemy.nft.getNftsForOwner(connectedAddress);
+                setCachedData((prevData) => ({
+                  ...prevData,
+                  [connectedAddress]: data,
+                }));
+                const nftContractAddresses = data.ownedNfts.map((nft) => nft.contract.address);    
+                console.log(`NFTs for address ${connectedAddress}`, nftAddressesObject);              
+                setNftAddressesObject((prevObject) => ({
+                    ...prevObject,
+                    [networkName]: nftContractAddresses,
+                }));
+                // setHasQueried(true);
+                setIsError(false);
+            }
+            else{      
+                const nftContractAddresses = cachedData[connectedAddress].ownedNfts.map((nft) => nft.contract.address);           
+                setNftAddressesObject((prevObject) => ({
+                    ...prevObject,
+                    [networkName]: nftContractAddresses,
+                }));
+            }
+        } catch (error) {
+            console.log('Error while fetching NFT certificates:', error);
+            // setHasQueried(true);
             setIsError(true);
-          }
         }
-
-        if (connectedAddress) {
-            const networkKeys = Object.keys(nftAddressesObject);
-            networkKeys.forEach((networkName) => {
-                console.log(networkName)
-                fetchNFTs(connectedAddress, networkName, networks[networkName]);
-            });
-        }
-    }, [connectedAddress]);
+    }
 
     return {
-        results,
-        setResults,
-        hasQueried,
-        setHasQueried,
         nftAddressesObject,
         isError,
+        fetchNFTs
     };
 }
