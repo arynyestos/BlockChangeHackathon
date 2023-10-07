@@ -5,8 +5,20 @@ import { useState } from 'react';
 
 import { getCertificatesByAdd } from '../utils/getCertificates';
 
+import { useUserContext } from '../app-context/user-context-provider';
+
 function fetchJobDetailsById(id) {
     return jobOffers.find(offer => offer.id === Number(id));
+}
+
+function flattenRequiredCertificates(certificatesObject) {
+    let addresses = [];
+
+    for (const network in certificatesObject) {
+        addresses = addresses.concat(certificatesObject[network]);
+    }
+
+    return addresses;
 }
 
 function Offer() {
@@ -14,9 +26,11 @@ function Offer() {
     const job = fetchJobDetailsById(id);
     const logoSrc = job.companyLogo === "" ? "https://i.ibb.co/3mM1sNd/empty-logo.jpg" : job.companyLogo;
     const descriptionParagraphs = job.description.split('\n')
-    const certificatesNames = getCertificatesByAdd(job.requiredCertificates)
+    const flattenedAddresses = flattenRequiredCertificates(job.requiredCertificates);
+    const certificatesNames = getCertificatesByAdd(flattenedAddresses);
 
     const [isModalOpen, setModalOpen] = useState(false);
+    const { filter } = useUserContext();
 
     const handleApplicationSubmit = () => {
         setModalOpen(true);
@@ -49,12 +63,15 @@ function Offer() {
                 ))}
             </div>
             {/* Optional back button to navigate back to listings */}
-            <Link 
-                to="#" 
-                className="apply-link"
-                onClick={handleApplicationSubmit}>
-                APPLY
-            </Link>
+            {
+                (filter !== "match") ? null :
+                    <Link
+                        to="#"
+                        className="apply-link"
+                        onClick={handleApplicationSubmit}>
+                        APPLY
+                    </Link>
+            }
             <Modal show={isModalOpen} onClose={handleCloseModal}>
                 <h4>Success!</h4>
                 <p>Your application has been submitted.</p>
