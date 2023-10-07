@@ -58,9 +58,9 @@ function Offer() {
             </p>
             <h3>Requirements</h3>
             <div className="requirements">
-                {certificatesNames.map((name, index) => (
-                    <div key={index} className="certificate-box">{name}</div>
-                ))}
+                {certificatesNames.map((name, index) =>
+                    name !== null && <div key={index} className="certificate-box">{name}</div>
+                )}
             </div>
             {/* Optional back button to navigate back to listings */}
             {
