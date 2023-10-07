@@ -7,6 +7,8 @@ import { getNFTs } from '../utils/getNFTs';
 import { Network } from 'alchemy-sdk';
 import { useAccount } from 'wagmi';
 
+import { useUserContext } from '../app-context/user-context-provider';
+
 export default function Home() {    
     const { address, isConnected } = useAccount()
     const {
@@ -36,13 +38,7 @@ export default function Home() {
 
     }, [address]);
 
-    // console.log("user address: " + address)
-
-    // console.log("NFT addresses: " + JSON.stringify(nftAddressesObject))
-
-    // console.log("User certificates JSON: " + JSON.stringify(nftAddressesObject));
-
-    const [filter, setFilter] = useState("");
+    const { filter, setFilter } = useUserContext();
     let filteredOffers;
 
     switch (filter) {
@@ -51,7 +47,7 @@ export default function Home() {
               for (const network in offer.requiredCertificates) {
                 const certificates = offer.requiredCertificates[network];
                 for (const cert of certificates) {
-                  if (!nftAddressesObject[network].includes(cert)) {
+                  if (!nftAddressesObject[network] || !nftAddressesObject[network].includes(cert)) {
                     console.log("Address:", address, "Network:", network, "NFTs:", nftAddressesObject[network])
                     return false; // Return false if at least one required certificate does not match the user's certificates
                   }
@@ -65,7 +61,7 @@ export default function Home() {
               for (const network in offer.requiredCertificates) {
                 const certificates = offer.requiredCertificates[network];
                 for (const cert of certificates) {
-                  if (!nftAddressesObject[network].includes(cert)) {
+                  if (!nftAddressesObject[network] || !nftAddressesObject[network].includes(cert)) {
                     return true; // Return false if at least one required certificate does not match the user's certificates
                   }
                 }

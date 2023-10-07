@@ -12,7 +12,7 @@ function Navbar() {
                   <Link to="/" className="menu-link">JobFinder</Link>
                 </div>
                 <div className="logo"></div>
-                <ConnectButton  chainStatus="none" showBalance={false}/>
+                <ConnectButton  className="connect-button" chainStatus="none" showBalance={false}/>
             </header>
         </div>
     );

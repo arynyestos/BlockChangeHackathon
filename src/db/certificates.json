@@ -1,7 +1,7 @@
 [
     {
         "name": "Grado en Ingeniería",
-        "contractAdd": "0x12345"
+        "contractAdd": "0x0053e9192cd52aa9cb2e2325b88125afe579aa70"
     },
     {
         "name": "Grado en Economía",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Experto en Docker",
-        "contractAdd": "0x67890"
+        "contractAdd": "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25"
     },
     {
         "name": "Experto en React",
