@@ -8,11 +8,11 @@ function Navbar() {
     return (
             <nav className="navbar-header">
                 <Link to="/" className="menu-link">
-                    <img src="public/name.png" alt="Name"  style={{ width: '8em' }}/>
+                    <img src="name.png" alt="Name"  style={{ width: '8em' }}/>
                     {/* <img src="public/name.png" alt="Name" /> */}
                 </Link>
                 <Link to="/" className="menu-link-logo">
-                    <img src="public/logo.png" alt="Logo"/>
+                    <img src="logo.png" alt="Logo"/>
                 </Link>
                 <ConnectButton  className="connect-button" chainStatus="none" showBalance={false}/>
             </nav>

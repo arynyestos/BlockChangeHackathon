@@ -3,6 +3,7 @@ body {
   background-color: #f0f0f0; /* light grey */
   margin: 0;
   font-family: 'Montserrat', sans-serif; /* Sample font */
+  overflow-x: hidden;
 }
 
 /* Tab Styles */
