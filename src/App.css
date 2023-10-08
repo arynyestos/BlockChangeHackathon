@@ -118,6 +118,10 @@ body {
   border-radius: 8px;
 }
 
+.job-description {
+  white-space: pre-line;
+}
+
 
 .company-link {
   font-size: 0.8em;  /* Adjust to the desired smaller font size */
@@ -152,4 +156,107 @@ body {
   font-size: 0.9em;
   color: #333;
   font-family: 'Montserrat', sans-serif
+}
+
+.offer-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Increased shadow for emphasis */
+  padding: 30px;  /* Increased padding */
+  width: 80%; /* Adjust based on preference */
+  max-width: 1000px; /* Ensure cards don't get too wide on large screens */
+  transition: transform 0.2s; /* For hover effect */
+  border-radius: 10px; /* Rounded corners */
+  border-bottom: 6px solid #f3e2b9; /* Thicker border bottom for emphasis */
+  margin: 20px auto; /* Auto centers the card horizontally, added vertical margin for spacing */
+  text-decoration: none;  
+  color: inherit; 
+  position: relative;
+}
+
+.offer-card-logo {
+  width: 70px;  /* Larger for emphasis */
+  height: auto;
+  border-radius: 8px;
+  display: block;  /* Block will center the image using the text-align property */
+  margin: 20px auto;  /* Vertical spacing and horizontally centers the image */
+}
+
+.offer-card h2 {
+  font-size: 1.5em;  /* Make title larger */
+  text-align: center; /* Center the title */
+}
+
+/* Adjustments for elements inside offer-card */
+.offer-card .job-header {
+  flex-direction: column;  /* Stack elements vertically */
+  align-items: center;  /* Center items horizontally since direction is column */
+  gap: 15px;  /* Increased gap for emphasis */
+}
+
+.offer-card .job-details,
+.offer-card .job-footer {
+  font-size: 1em;   /* Make the text a bit larger */
+  margin: 10px 0;   /* Added space between elements */
+}
+
+.offer-card .requirements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  margin-bottom: 30px;
+  /* provides spacing between boxes */
+}
+
+.offer-card .certificate-box {
+  background-color: #f3e2b9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.back-to-listings {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 15px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.back-to-listings i {
+  margin-right: 5px;
+}
+
+/*.back-to-listings:hover {
+  background-color: #ddb965;
+}*/
+
+.apply-link {
+  display: flex; /* Switched to flex for centering */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+
+  width: 100%; 
+  margin-bottom: 20px; /* Creates space between .apply-link and .back-to-listings */
+  padding: 8px 0; /* No left and right padding */
+
+  color: #efefef;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+  background-color: #4aa37c;
+  font-weight: bold;
+  
+  
+}
+
+.apply-link:hover {
+  background-color: #137048; /* Replace 'britishGreen' with the exact color code */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

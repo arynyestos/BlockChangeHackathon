@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom';
 
 function JobCard({ job }) {
     const logoSrc = job.companyLogo === "" ? "https://i.ibb.co/3mM1sNd/empty-logo.jpg" : job.companyLogo;
+    const descriptionParagraphs = job.description.split('\n')
+    const trimmedDescription = descriptionParagraphs[0].length > 30 
+        ? descriptionParagraphs[0].substr(0, 230) + "..."
+        : descriptionParagraphs[0];
     
     return (
         <Link to={`/oferta/${job.id}`} className="job-card">
@@ -16,9 +20,9 @@ function JobCard({ job }) {
             <p className="job-details">
                 {job.city} | {job.presence} | {job.contractType}
             </p>
-            <p>{job.description}</p>
+            <p>{trimmedDescription}</p>
             <p className="job-footer">
-                Posted on: {new Date(job.createdTimestamp).toLocaleDateString()} | Salary: {job.salary}
+                Posted on: {new Date(job.createdTimestamp).toLocaleDateString()} | {job.salary}
             </p>
         </div>
         </Link>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { getNFTs } from '../utils/getNFTs';
 
 export function useGetConnectedAddress() {
   const [connectedAddress, setConnectedAddress] = useState('');
@@ -47,6 +46,7 @@ export function useGetConnectedAddress() {
       // Listen to account changes
       ethereum.on('accountsChanged', (accounts) => {
         setConnectedAddress(accounts[0] || '');
+        setWalletConnected(true);
       });
 
       return () => {
@@ -59,8 +59,10 @@ export function useGetConnectedAddress() {
     const address = await requestPermissions();
     if (address) {
       setConnectedAddress(address);
+      console.log("Hemos conectado", address);
+      setWalletConnected(true);
     }
   };
 
-  return { connectedAddress, connectWallet, walletConnected };
+  return { connectedAddress, setConnectedAddress, connectWallet, walletConnected, setWalletConnected };
 }
