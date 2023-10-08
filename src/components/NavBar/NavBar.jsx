@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Navbar.css';
+import './NavBar.css';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 function Navbar() {
