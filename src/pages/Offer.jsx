@@ -28,22 +28,20 @@ function Offer() {
     const descriptionParagraphs = job.description.split('\n')
     const flattenedAddresses = flattenRequiredCertificates(job.requiredCertificates);
     const certificatesNames = getCertificatesByAdd(flattenedAddresses);
-
     const [isModalOpen, setModalOpen] = useState(false);
     const { filter } = useUserContext();
-
     const handleApplicationSubmit = () => {
         setModalOpen(true);
     }
-
     const handleCloseModal = () => {
         setModalOpen(false);
+        window.location.href = "/";  // Redirects to the homepage
     }
 
     return (
         <div className="offer-card">
             <div className="job-header">
-                <img className="offer-card-logo" src={logoSrc} alt="Company Logo" />
+                <img className="offer-card-logo" src={logoSrc} alt="Company Logo" style={{ width: '100px', height: '100px' }}/>
                 <h2>{job.title}</h2>
                 <a href={job.companyURL} target="_blank" rel="noopener noreferrer" className="company-link">{job.companyName}</a>
             </div>
@@ -62,7 +60,6 @@ function Offer() {
                     name !== null && <div key={index} className="certificate-box">{name}</div>
                 )}
             </div>
-            {/* Optional back button to navigate back to listings */}
             {
                 (filter !== "match") ? null :
                     <Link
@@ -75,7 +72,6 @@ function Offer() {
             <Modal show={isModalOpen} onClose={handleCloseModal}>
                 <h4>Success!</h4>
                 <p>Your application has been submitted.</p>
-                <button onClick={handleCloseModal}>Close</button>
             </Modal>
             <Link to="/" className="back-to-listings">
                 <i className="fas fa-arrow-left"></i> Back to Listings

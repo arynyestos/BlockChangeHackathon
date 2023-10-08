@@ -1,7 +1,5 @@
 import certificates from "../db/certificates.json"
 
-
-
 function getCertificateByName(name) {
     const certificate = certificates.find(cert => cert.name === name);
     return certificate ? certificate.contractAdd : null;

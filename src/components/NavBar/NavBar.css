@@ -1,13 +1,14 @@
 .navbar-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     padding: 10px 20px;
-    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
-    color: #1F355E; /* Apply color */
+    font-family: 'Montserrat', sans-serif;
+    color: #1F355E;
+    position: relative; /* Add position:relative */
 }
-
 .connect-wallet {
     padding: 8px 16px;
     background-color: #3498db; /* you can change this to your preferred color */
@@ -44,13 +45,13 @@
     font-weight: bold;
 }
 
-.logo {
-    flex: 1;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+.menu-link-logo {
+    height: 6vh;
+    > img {
+        height: 100%;
+        aspect-ratio: initial;
+    }
 }
-
 
 .dropdown-menu {
     background-color: #444;
@@ -80,7 +81,7 @@
 
 .menu-link {
     text-decoration: none;
-    color: inherit; /* Use whatever color you want the text to be */
+    color: inherit; 
 }
 
 .menu-link:hover {

@@ -1,17 +1,106 @@
-[
+[    
     {
         "id": 1,
-        "title": "Network Technician",
-        "salary": "39.000€ - 40.000€",
-        "description": "In BIGZON we select 1 Systems Engineer Administrator Open Source Software, expert in Linux Red Hat version 7 or 8, to work in a stable project of Public Administration, center of Madrid in Pº de la Castellana near Chamartín.\nVery good job opportunity!\nThe main function will be the design, deployment and management of the free software platform: web servers, application servers, free databases, queue management, and other services, on Linux machines, on which the business applications are executed\n-The Linux platform is currently in a phase of growth and expansion. It is a platform of free software products, based on a set of VMware virtual machines running the Red Hat Enterprise Linux 7 or 8 operating system, Apache HTTP Server web server, Tomcat, Wildfly or JBoss application server in high availability, MariaDB Galera Cluster database server, ActiveMQ Artemis queue server, and JasperReports Server reporting server.\nThe platform consists of several environments: production, pre-production, testing and training, development and laboratory.",
+        "title": "Full Stack Developer",
+        "salary": "$80,000 - $100,000",
+        "description": "Montarelo Consulting is seeking talented Full Stack Developers to join our dynamic and innovative software development team. We are committed to fostering personal growth and career advancement for our team members and offer exciting opportunities in various technology domains.\n\nResponsibilities and Role:\n- Collaborate with cross-functional teams to design, develop, and maintain web applications.\n- Proficiency in Docker containerization for efficient deployment.\n- Expertise in React.js for building user-friendly front-end interfaces.\n- Utilize Scrum methodology for agile project management and development.\n- Continuously learn and adapt to emerging technologies.\n\nSkills and Qualifications:\n- Strong proficiency in Docker for containerization and deployment.\n- Extensive experience with React.js for front-end development.\n- Familiarity with Scrum methodology and agile software development.\n- Excellent problem-solving and analytical skills.\n- Effective communication and teamwork abilities.\n- Attention to detail and commitment to delivering high-quality code.\n\nApplication:\nIf you are a passionate Full Stack Developer looking to make a significant impact in a collaborative and innovative environment, we'd love to hear from you! Please send your application below!\n\nJoin our team at TechSolutions Inc. and be part of our exciting journey in shaping the future of technology!",
         "requiredLanguage": "JavaScript",
         "createdTimestamp": "2023-10-01T10:00:00Z",
-        "contractType": "Permanent Full-time",
-        "city": "Madrid",
+        "contractType": "Full-time",
+        "city": "New York",
         "presence": "Remote",
-        "companyName": "BIGZON",
-        "companyURL": "https://bigzon.ofertas-trabajo.infojobs.net/",
-        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/dd/dde5d4cd-2757-49f9-99fa-50564954afe4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzM1MjEwNzcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9kZC9kZGU1ZDRjZC0yNzU3LTQ5ZjktOTlmYS01MDU2NDk1NGFmZTQiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.PvIsvKcepGt5sbQpWeOOnkwALtkZhzNeZrVQykdRjKAZme1dg47BWeyGsiEfbs4neYh1E2vjByGK41ixZU2Mx2689nSXCYVyoz_Rfp90qWLBSsOtuXXPWijpOfyHZMSNDHgeYe6NDOWQTuJKM_LDxIivDoUa909ZdlJs-TpYJzFM69HdSLRryIXR4dcCHSEA9_UPsddWPORUShDceD55paZZ13RlHuCodxuKlcWplGHwzUKV4Qyh3mFq2oc5mmHuz5oNZ3HQ_vxaB02JCR2HA3DyY6ST6mlRFoB-2UBR862vUdfGuOkFl5n78BJm0gqjNjrMNQ1nQATGUVGhS_KhIQ&AccessKeyId=d724d9a53d95a810",
+        "companyName": "Montarelo Consulting",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/be/beca3808-c4c9-4e41-938b-afcf5835ae74?rule=largeDevice155",
+        "requiredCertificates": {
+            "Polygon": [
+                "0x0053e9192cd52aa9cb2e2325b88125afe579aa70",
+                "0x1105ff8025bd70956fd9de1a41254f0606aac13c",
+                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693"
+            ],
+            "Optimism": [
+                "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25"
+            ]        
+        }
+    },
+    {
+        "id": 2,
+        "title": "Data Scientist",
+        "salary": "$90,000 - $110,000",
+        "description": "DataTech Innovations Ltd. is seeking a skilled Data Scientist to join our dynamic team of data professionals. We are dedicated to providing opportunities for personal growth and career advancement, with a focus on cutting-edge data analytics and technology.\n\nResponsibilities and Role:\n- Analyze and interpret complex data sets to extract valuable insights.\n- Develop and implement data-driven solutions and predictive models.\n- Collaborate with cross-functional teams to drive data-related projects.\n- Utilize Python programming proficiency for data analysis and modeling.\n- Continuously explore and adopt new data science techniques and tools.\n\nSkills and Qualifications:\n- Proficiency in Python for data analysis, scripting, and modeling.\n- Strong statistical analysis and data visualization skills.\n- Experience with machine learning algorithms and techniques.\n- Effective communication and presentation of data findings.\n- Attention to detail and a commitment to data accuracy and quality.\n\nApplication:\nIf you are a passionate Data Scientist with Python expertise and a drive to make a significant impact in the world of data analytics, we invite you to apply. Please send your application below!\n\nJoin our team at DataTech Innovations Ltd. and be part of our exciting journey in shaping the future of data science and analytics!",
+        "requiredLanguage": "Python",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "TechCorp",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "",
+        "requiredCertificates": {
+            "Polygon": [
+                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6",
+                "0x0053e9192cd52aa9cb2e2325b88125afe579aa70",
+                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "title": "Java Developer",
+        "salary": "$70,000 - $85,000",
+        "description": "CodeCrafters Solutions Inc. is seeking a talented Java Developer to join our innovative software development team. We are dedicated to providing opportunities for personal growth and career advancement in the world of Java development.\n\nResponsibilities and Role:\n- Design, develop, and maintain Java-based applications.\n- Collaborate with cross-functional teams to deliver high-quality software solutions.\n- Write clean, efficient, and well-documented code.\n- Participate in code reviews and debugging activities.\n- Stay updated on Java technologies and best practices.\n\nSkills and Qualifications:\n- Proficiency in Java programming language.\n- Strong understanding of software development principles.\n- Experience with Java frameworks and libraries.\n- Effective problem-solving and debugging skills.\n- Excellent communication and teamwork abilities.\n\nApplication:\nIf you are a passionate Java Developer with a desire to excel in Java development and contribute to exciting projects, we encourage you to apply. Please send your applicaion below!\n\nJoin our team at CodeCrafters Solutions Inc. and be part of our journey in shaping the future of Java development!",
+        "requiredLanguage": "Java",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "New York",
+        "presence": "Remote",
+        "companyName": "CodeCrafters Solutions Inc.",
+        "companyURL": "https://techcorp.example.com",
+        "companyLogo": "",
+        "requiredCertificates": {
+            "Polygon": [
+                "0x0053e9192cd52aa9cb2e2325b88125afe579aa70"
+            ],
+            "Optimism": [
+                "0xjavamaster"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": "Technical Product Designer",
+        "salary": "$65,000 - $90,000",
+        "description": "Kapres Technology is seeking a talented Technical Product Designer to join our innovative product development team. We are dedicated to fostering creativity and providing opportunities for personal growth and career advancement in the field of product design.\n\nResponsibilities and Role:\n- Collaborate with cross-functional teams to conceptualize and design technical products.\n- Translate product requirements into detailed technical drawings and specifications.\n- Utilize CAD software and other design tools for product development.\n- Conduct research on materials and manufacturing processes.\n- Ensure designs meet technical and quality standards.\n\nSkills and Qualifications:\n- Proficiency in CAD software and technical drawing tools.\n- Strong understanding of engineering principles and product design.\n- Excellent problem-solving skills and attention to detail.\n- Effective communication and teamwork abilities.\n- Ability to work in a fast-paced, innovative environment.\n\nApplication:\nIf you are a passionate Technical Product Designer with a knack for transforming ideas into tangible products and are eager to contribute to exciting projects, we invite you to apply. Please send your application below!\n\nJoin our team at Kapres Technology and be part of our mission to shape the future of technical product design!" ,
+        "requiredLanguage": "Experience in data visualization, preferably with Power BI.",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "London",
+        "presence": "Remote",
+        "companyName": "Kapres Technology",
+        "companyURL": "https://kaprestechnology.com/",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/5b/5b25813f-35b7-4a05-9bd5-8b9295aa5ba6?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzQxMjI3MTgsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy81Yi81YjI1ODEzZi0zNWI3LTRhMDUtOWJkNS04YjkyOTVhYTViYTYiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.fc-vYSOApF6omiLAAFqNraJcKlYxHtwaJA5YXHElIzu28JZ6alcN-FJCIUFv7aOaF8_ucomUB2G8G6mvLw_vrxiPGtiS6jMgNQf7vcrPKOl7AYir6wEM3IkkbX4ASsZ6dQgS9hqUB_ZQ7KOVkVYnp2XfnddV5eCAojGXy5KSaa1ZlYWAArzhesWfAILnWdLJUBhuw-lmHAtzHzEeyOzXk2nM6uZH9FNasqpHTeCFG7uL4yq4kKc0RWIlrSXPPpRozxjfu53R3I8Mchxd7769JtHZ2dh_7R3fmMOPBixhf0fiL2NPMbvVloPnGyY5oA3H_kNvikqpbKNVfnR6cDuUvw&AccessKeyId=d724d9a53d95a810",
+        "requiredCertificates": {
+            "Polygon": [
+                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6"
+            ],
+            "Optimism": [
+                "0xpowerbi"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "title": "Helpdesk Technician - Deloitte Technology Madrid",
+        "salary": "Not available",
+        "description": "We are looking for a person eager to learn and develop in our Deloitte Technology team, with experience in the user support area to be part of this Firm. What will your day-to-day life be like?\n- Remote connection to solve problems presented to the user.\n- Opening of HP cases to repair physical damage to equipment.\n- On-site solution of problems encountered by users (physical damage, accidents, software not working, software installation, UMTS configuration, etc.).\n- Software installation.\n- Configuration and installation of mobile devices (iPad, iPhone, cell phones, etc.).\n- In the ticketing tool, assess which should be escalated to level 2 (problems that cannot be solved by the technician himself). How do we imagine you?\nFirst and foremost, we are looking for someone who is eager to learn and find the best solution for the Firm's challenges as a team. Technically, you will fit the position if you meet these requirements:\n- Advanced Technical Degree in Networked Computer Systems Administration or Intermediate Degree in Microcomputer Systems.\n- Minimum experience of 6 months in a support technician position.\n- B2 level of English.",
+        "requiredLanguage": "Higher Level Training Cycle - Computer Science and Communications.",
+        "createdTimestamp": "2023-11-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "Madrid",
+        "presence": "Hybrid",
+        "companyName": "Deloitte",
+        "companyURL": "https://www2.deloitte.com/es/es/careers/carrera-profesional.html",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d7/d77c6d14-a3ae-4aed-9e6e-a560f7547d13?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2MDYyMTQyNzcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9kNy9kNzdjNmQxNC1hM2FlLTRhZWQtOWU2ZS1hNTYwZjc1NDdkMTMiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.A_KVd-uoS7w_ldDqa1j6WfaQDfV3JnGkrALPTEQRUyyrIMX6toJyWMoGTxtD0DjHV7W_wQXbNTAidyxcr644lByWINI7hMIvFutnKzkFBv_UEWVXAZMl3RL6oBYgBV-1cB_RR5kmbiNRM511uAXUnPG4lpPkgxUotfCinvcJg3K7lj6A7h_3pKCrR9IBoOBcgObfXbmLeQqwkoI6Acau3NYK4buxCyJG7E4ZursPmxlcZ3XSQg6d_TfS5Bvlsk7p8OZAK3MF3Cv4RdGgc1n5qB8Mkjiy2aZAJr40lqAbXmJfZfuxLwxscYGInEP4c9lnsaMVOZ2-MDynsLCs6FALvg&AccessKeyId=d724d9a53d95a810",
         "requiredCertificates": {
             "Polygon": [
                 "0x0053e9192cd52aa9cb2e2325b88125afe579aa70",
@@ -23,40 +112,39 @@
         }
     },
     {
-        "id": 2,
-        "title": "Data Scientist",
-        "salary": "$90,000 - $110,000",
-        "description": "Seeking a skilled data scientist with experience in Python and machine learning frameworks.",
-        "requiredLanguage": "Python",
+        "id": 6,
+        "title": "Java Developer Senior (EUROPEAN COMMISSION)",
+        "salary": "$54,000 - $70,000",
+        "description": "Proficiency with back-end languages and frameworks such as Java, Spring, Spring boot, JPA and Hibernate.\n- Good knowledge with fundamental front-end languages such as JavaScript, HTML and CSS.\n- Good knowledge with JavaScript frameworks and libraries such as Angular and Bootstrap.\n- Familiarity with database technology such as Oracle, MongoDB.\n- Knowledge of code versioning tools such as Git or SVN. KNOWLEDGE AND SKILLS:\nFollowing knowledge are required for the performance of the above listed tasks:",
+        "requiredLanguage": "Experience in data visualization, preferably with Power BI.",
         "createdTimestamp": "2023-10-01T10:00:00Z",
         "contractType": "Full-time",
-        "city": "New York",
-        "presence": "Remote",
-        "companyName": "TechCorp",
-        "companyURL": "https://techcorp.example.com",
-        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/dd/dde5d4cd-2757-49f9-99fa-50564954afe4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzM1MjEwNzcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9kZC9kZGU1ZDRjZC0yNzU3LTQ5ZjktOTlmYS01MDU2NDk1NGFmZTQiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.PvIsvKcepGt5sbQpWeOOnkwALtkZhzNeZrVQykdRjKAZme1dg47BWeyGsiEfbs4neYh1E2vjByGK41ixZU2Mx2689nSXCYVyoz_Rfp90qWLBSsOtuXXPWijpOfyHZMSNDHgeYe6NDOWQTuJKM_LDxIivDoUa909ZdlJs-TpYJzFM69HdSLRryIXR4dcCHSEA9_UPsddWPORUShDceD55paZZ13RlHuCodxuKlcWplGHwzUKV4Qyh3mFq2oc5mmHuz5oNZ3HQ_vxaB02JCR2HA3DyY6ST6mlRFoB-2UBR862vUdfGuOkFl5n78BJm0gqjNjrMNQ1nQATGUVGhS_KhIQ&AccessKeyId=d724d9a53d95a810",
+        "city": "Brussels, Belgium",
+        "presence": "Hybrid",
+        "companyName": "abde business consulting",
+        "companyURL": "http://www.abde-bc.com/",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/51/513d2795-97ef-4ae5-bca3-f35fc9dd00f4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NjcyMDY2NzcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy81MS81MTNkMjc5NS05N2VmLTRhZTUtYmNhMy1mMzVmYzlkZDAwZjQiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.jVSYjEYq9UsH84jYoxAKwJJxrIhRK1FU5uwi1kUYI49ZNOUte4L7Z_KQHSyq90EeJxWfvEzCr0Wpltcsb53E4RhAKUJZURn9kxP_TS_KWAO2kwyIeK9ziVxUq4gJPN1Mdu76DDL1hACgzHtg3i1mlEyNkAEm6cxh5d0YYiISglqrqVvCjapP3TWk-81uVPo7RRdUZdL3OZU76mMfDq4MhGogJJegBeeN7ze4XVvnyk55d6K9cSI2TR1eqiycdNEP3KQA14OXr7cJk7G05of5YZNxfiOtVdWEly-YXPn3Vae7-oFBh9Dhiz6z-j9KubZ-nCsXue3g-YgDG_Q5Pj-g7A&AccessKeyId=d724d9a53d95a810",
         "requiredCertificates": {
             "Polygon": [
-                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6",
                 "0x1105ff8025bd70956fd9de1a41254f0606aac13c",
-                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693",
-                "0x24680"
+                "0x0053e9192cd52aa9cb2e2325b88125afe579aa70",
+                "0xjavamaster"
             ]
         }
     },
     {
-        "id": 3,
-        "title": "Java Developer",
-        "salary": "$70,000 - $85,000",
-        "description": "In search of a backend Java developer with strong experience in Spring Boot.",
-        "requiredLanguage": "Java",
+        "id": 7,
+        "title": "Senior Full-Stack TypeScript Developer - Relocation to Austria.",
+        "salary": "$56,000 - $80,000",
+        "description": "Qualifications\n-Working experience of minimum 5 years in a similar role\n-Knowledge of Node.js, TypeScript, JavaScript, HTML5, CSS3, and PostgreSQL\n-Practical experience in backend development\n-Comfortable with frontend tasks\n-Experience in designing robust software architectures\n-Experience in dealing with version control systems (GIT)\n-An agile mindset and experience in Scrum, Kanban, or XP\n-Solution-driven and collaborative approach\n-Fluency in English",
+        "requiredLanguage": "-Languages: TypeScript, JavaScript\n-Frameworks: React, Next.js(or NestJS depending upon the team)\n-Testing: Jest, Playwright, Cypress\n-Database: PostgreSQL\n-Npm, Yarn",
         "createdTimestamp": "2023-10-01T10:00:00Z",
         "contractType": "Full-time",
-        "city": "New York",
+        "city": "Vienna, Wien (Austria)",
         "presence": "Remote",
-        "companyName": "TechCorp",
-        "companyURL": "https://techcorp.example.com",
-        "companyLogo": "",
+        "companyName": "zooplus SE",
+        "companyURL": "Venta al por menor",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/80/80f475ad-70ae-4258-8cc0-4ebc48d48820?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2OTQwMDQ2NTQsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy84MC84MGY0NzVhZC03MGFlLTQyNTgtOGNjMC00ZWJjNDhkNDg4MjAiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.lh6ET7Zkm6tDsxMsrsPcDAI8wzt0nAmk3KzMxK3dUlt6UU5x7vaSUnLnR8izaiivXCmEnr5VWqwzX5S5ZvAxc-DLOhEQOjd04JasJV6K3mIZn_veBz6yJgNQ_1n1XYoLzRtgO99tIoP43_OMZVQggOUnoLJpYx8e2ECe0HDu6C8y9wO0rviUS83VSvoM2eWwVgalgMGs2nT34zRtbr8leEE2w6yNDETojF0-KciE56yTvH9i9xrXKQAUUL02XZbYj0Cav1mG-yW_w74s8cUnzE7gW3kFlITfwy6z9d_Tn2oV5VJBxoTfSBhx6pT0OhhpfaWDQKb4Q9AxgyCkHOrtAw&AccessKeyId=d724d9a53d95a810",
         "requiredCertificates": {
             "Polygon": [
                 "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693",
@@ -68,26 +156,67 @@
         }
     },
     {
-        "id": 4,
-        "title": "Master of the universe",
-        "salary": "$700,000 - $850,000",
-        "description": "In search of a Master of the Universe with strong experience being the master.",
-        "requiredLanguage": "Java",
-        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "id": 8,
+        "title": "Developer Java/Microservicios",
+        "salary": "$65,000 - $90,000",
+        "description": "Ampliamos nuestro equipo! ¡Buscamos Talento!\nEn Plexus necesitamos incorporar Perfiles de Java/microservicios, tanto un Líder Técnico como desarrolladores senior y junior.\nTe incorporarás en importante y estable proyecto además de ser un proyecto tecnológicamente muy puntero, en cliente del sector bancario, donde tendrás la oportunidad de seguir desarrollando tu trayectoria profesional\nTe ofrecemos:\nContrato indefinido\nTrabajar en una compañía adaptable y flexible.\nFormación continuada",
+        "requiredLanguage": "Dominio de Java (idealmente Java 11 o superior) y Spring Framework",
+        "createdTimestamp": "2023-15-01T10:00:00Z",
         "contractType": "Full-time",
-        "city": "New York",
-        "presence": "Remote",
-        "companyName": "TechCorp",
-        "companyURL": "https://techcorp.example.com",
-        "companyLogo": "",
+        "city": "Querétaro (México)",
+        "presence": "Hybrid",
+        "companyName": "TECNOLOGIAS PLEXUS S.L.",
+        "companyURL": "https://www.plexus.es/",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/8a/8a8d390c-2d0e-45c8-9b82-9f49cd1b1e77?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1OTQyMDI3MDcsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy84YS84YThkMzkwYy0yZDBlLTQ1YzgtOWI4Mi05ZjQ5Y2QxYjFlNzciLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.P_VoROLZP-zlnJ8dwsvinII5hgOZGQUeWOa-eqiNj48Y0kAeF0anqE7s1cVwg86U8-PwKHsv59wjV3Y0nBE_M57lLtyWqDr3prb2bCWu3vgBVw8W3SpqGgEmkG32gtBYk1L0BVIK5NfDQhY9VblweWbz2NwNP6jfvW-0YtiU1ZoHXUKiOxPiy38pfMGpsCS186Qf0-n-PsWlhYu7RtCzeccwpZ9Er6KmgOeoTjuUSgyU6cKrJqDsl0donccoSP9dgtWR9RluQSmXtzYzhSEOix8kVif0JRt5wG0zZhKzGQ5pMx797B7mOZfqgmyWJgaXIDUS9566uRXAYEdgxUJopQ&AccessKeyId=d724d9a53d95a810",
         "requiredCertificates": {
             "Polygon": [
-                "0x38d2ea6cfdd27c3b27dd7f834871ca91f40d0693",
-                "0x60576a64851c5b42e8c57e3e4a5cf3cf4eeb2ed6"
+                "0x0053e9192cd52aa9cb2e2325b88125afe579aa70"
             ],
             "Optimism": [
                 "0x7f9279b24d1c36fa3e517041fdb4e8788dc63d25",
-                "I am the damn master"
+                "0xjavamaster"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "title": "Marketing Manager",
+        "salary": "$65,000 - $90,000",
+        "description": "MarketingPro Solutions Ltd. is in search of a skilled and experienced Marketing Manager to lead our dynamic marketing team. We are dedicated to providing opportunities for personal growth and career advancement in the exciting field of marketing and brand management.\n\nResponsibilities and Role:\n- Develop and execute comprehensive marketing strategies and campaigns.\n- Manage and lead a team of marketing professionals.\n- Oversee market research, competitor analysis, and customer insights.\n- Plan and implement digital marketing initiatives.\n- Collaborate with cross-functional teams to achieve marketing goals.\n\nSkills and Qualifications:\n- Proven experience in marketing management.\n- Strong strategic thinking and leadership abilities.\n- Excellent communication and interpersonal skills.\n- Proficiency in digital marketing tools and platforms.\n- Analytical mindset and data-driven decision-making.\n\nApplication:\nIf you are a passionate Marketing Manager with a track record of delivering successful marketing campaigns and are eager to shape the future of our brand, we encourage you to apply. Please send your application below!\n\nJoin our team at MarketingPro Solutions Ltd. and be part of our mission to redefine marketing excellence!",
+        "requiredLanguage": "Experience in data visualization, preferably with Power BI.",
+        "createdTimestamp": "2023-10-01T10:00:00Z",
+        "contractType": "Full-time",
+        "city": "London",
+        "presence": "Remote",
+        "companyName": "MarketingPro Solutions Ltd.",
+        "companyURL": "https://kaprestechnology.com/",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/5b/5b25813f-35b7-4a05-9bd5-8b9295aa5ba6?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzQxMjI3MTgsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy81Yi81YjI1ODEzZi0zNWI3LTRhMDUtOWJkNS04YjkyOTVhYTViYTYiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.fc-vYSOApF6omiLAAFqNraJcKlYxHtwaJA5YXHElIzu28JZ6alcN-FJCIUFv7aOaF8_ucomUB2G8G6mvLw_vrxiPGtiS6jMgNQf7vcrPKOl7AYir6wEM3IkkbX4ASsZ6dQgS9hqUB_ZQ7KOVkVYnp2XfnddV5eCAojGXy5KSaa1ZlYWAArzhesWfAILnWdLJUBhuw-lmHAtzHzEeyOzXk2nM6uZH9FNasqpHTeCFG7uL4yq4kKc0RWIlrSXPPpRozxjfu53R3I8Mchxd7769JtHZ2dh_7R3fmMOPBixhf0fiL2NPMbvVloPnGyY5oA3H_kNvikqpbKNVfnR6cDuUvw&AccessKeyId=d724d9a53d95a810",
+        "requiredCertificates": {
+            "Polygon": [
+                "0xmarketing"
+            ],
+            "Optimism": [
+                "0xpowerbi"
+            ]        
+        }
+    },
+    {
+        "id": 10,
+        "title": "Associate Lawyer",
+        "salary": "$36,000 - $39,000",
+        "description": "ZKK Law Firm is looking for associates to join its highly dynamic civil law and real estate team, aiming at long-term cooperation.\n\nOur firm offers opportunities of personal development and career growth in different sectors according to each candidate’s skills and personality.\n\nResponsibilities and role\n- Consult private clients on topics related to civil law\n- Undertake cases related to civil law and international private law\n- Commit to personal learning and development\n\nSkills and Qualifications:\n- Excellent command of English language and thorough analytical and drafting skills.\n- Use of French language is also a desired qualification, but not obligatory\n- Excellent command and use of computer and IT tools\n- Strong communication and ability to interact with clients\n- Pay attention to detail and follow guidelines\n\nApplication\n\nInterested candidates may send an email to info@zkklaw.gr with their CV and a cover letter explaining why they want to join our team using the Subject “Application for Associate Lawyer”",
+        "requiredLanguage": "FP Automatización y Control / Mecatrónica\nExperiencia mínima de 3 años en programación e instalación de dispositivos de control BMS/ Conocimiento de la plataforma Trend Control Systems (Honeywell) / Schneider.",
+        "createdTimestamp": "2023-16-01T10:00:00Z",
+        "contractType": "Part-time",
+        "city": "Madrid",
+        "presence": "Remote",
+        "companyName": "InfoJobs Performance",
+        "companyURL": "Servicios de RRHH",
+        "companyLogo": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/55/55317d67-6d3e-4d1c-8430-314335154b50?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2ODIwMDI1NDIsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy81NS81NTMxN2Q2Ny02ZDNlLTRkMWMtODQzMC0zMTQzMzUxNTRiNTAiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.D9Sb5R9KUbcwP8jrVI9KQBwDUU0lUT7GK4chsq3gjVueLA1Xyi5gyguFGOHudk-tp0vl182kRSncuZOCqdiuSrtImoHm4FM4OINSUgc54Wmlo_av_BpEqPqNtleyGYZvakQpEje7XcQimtOOdqCpO8c4lotG_j1vLkZYcAlZXiDDDE1XjRAq88FxzCHrwt88VubWyftf45BRQU3doyCUO2-_N8AHqa3wW4hUNfJMUutFhw7vPwuZeCbbReK0uQevAIHzp4vDrCe_yiCtHiefZFjqgC0EjVmgoYwbG3JJ8eJQ_P148oS-saVMoBOwyHM5aziCUAE4Ii7-vQDwKeD4cQ&AccessKeyId=d724d9a53d95a810",
+        "requiredCertificates": {
+            "Polygon": [
+                "0xlawyer",
+                "0xcpe"
             ]
         }
     }

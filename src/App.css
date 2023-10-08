@@ -254,3 +254,9 @@ body {
 .apply-link:hover {
   background-color: #137048; /* Replace 'britishGreen' with the exact color code */
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

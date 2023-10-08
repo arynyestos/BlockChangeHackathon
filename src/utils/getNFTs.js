@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { Alchemy, Network } from 'alchemy-sdk';
+import { useState } from 'react';
+import { Alchemy } from 'alchemy-sdk';
 
 export function getNFTs(connectedAddress) {
     const [isError, setIsError] = useState(false);
